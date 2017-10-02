@@ -1,0 +1,141 @@
+
+
+
+
+
+.top-nav {
+    background-color: black;
+    overflow: hidden;
+	position: fixed;
+	top: 0;
+    width:100%;
+	margin-bottom: 40 px;
+}
+
+.top-nav a {
+    float: left;
+    display: block;
+    color: #2a2727;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+
+.top-nav a:link, a:visited {
+  text-decoration:none;
+	color:white;
+	background-color:black;
+	
+
+}
+.top-nav a:hover{
+	color:#cc1906;
+}
+.top-nav a:active{
+	font-size:16px;
+	background-color:black;
+}
+
+.top-nav .icon{
+    display: none;
+}
+
+.banner{
+    background-color: white;
+    position: center;
+    margin: auto;
+}
+
+
+#music-release{
+	margin:auto;
+	position:center;
+	width:auto;
+	
+}
+
+#beat-store {
+    margin:auto;
+	position:center;
+	max-width: 100%;
+}
+
+#contact {
+	margin:auto;
+	position:center;
+	width:auto;
+}
+
+.red{
+    color:red;
+    }
+.form-area
+{
+    background-color: #FAFAFA;
+	padding: 10px 40px 60px;
+	margin: 10px 0px 60px;
+	border: 1px solid GREY;
+	}
+
+
+#social-media {
+	margin:auto;
+	position:center;
+	width:auto;
+}
+
+#container {
+	margin: auto;
+	position: center;
+	width:auto;
+}
+
+#container h2 {
+    color: #cc1906;
+}
+
+/*Media Queries Responsive*/
+
+/*Hides links on small screens*/
+@media screen and (max-width:768px) {
+    .top-nav a:not(:first-child) {display: none;}
+    .top-nav a.icon {
+        float: left;
+        display: block;
+    }
+    
+}
+
+
+
+
+
+/*Displays links vertically on small screen*/
+@media screen and (max-width: 768px) {
+    .top-nav.responsive {position: fixed;}
+    .top-nav.responsive a.icon {
+        position: fixed;
+        right: 0;
+        top: 0;
+    }
+    
+    .top-nav.responsive a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+	
