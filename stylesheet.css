@@ -43,7 +43,8 @@
 }
 
 .banner{
-    background-color: white;
+    background-color: black;
+    padding-top: 25px;
     position: center;
     margin: auto;
 }
