@@ -4,7 +4,7 @@
 
 
 .top-nav {
-    background-color: black;
+    background-color: #111111;
     overflow: hidden;
 	position: fixed;
 	top: 0;
@@ -15,7 +15,7 @@
 .top-nav a {
     float: left;
     display: block;
-    color: #2a2727;
+    color: whitesmoke;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -26,7 +26,7 @@
 .top-nav a:link, a:visited {
   text-decoration:none;
 	color:white;
-	background-color:black;
+	background-color:#111111
 	
 
 }
@@ -35,7 +35,7 @@
 }
 .top-nav a:active{
 	font-size:16px;
-	background-color:black;
+	background-color:#111111;
 }
 
 .top-nav .icon{
@@ -51,21 +51,31 @@
 
 #music-release{
 	margin:auto;
+    margin-top: 100px;
+    padding-top: 25px;
+    border-top: solid 1.5px;
 	position:center;
-	width:auto;
+	max-width: 80%;
+    
 	
 }
 
 #beat-store {
     margin:auto;
+    margin-top: 100px;
+    padding-top: 25px;
+    border-top: solid 1.5px;
 	position:center;
-	max-width: 100%;
+	max-width: 80%;
 }
 
 #contact {
 	margin:auto;
+    margin-top: 100px;
+    padding-top: 25px;
+    border-top: solid 1.5px;
 	position:center;
-	width:auto;
+	max-width: 80%;
 }
 
 .red{
@@ -82,8 +92,13 @@
 
 #social-media {
 	margin:auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    border-top: solid 1.5px;
 	position:center;
-	width:auto;
+	max-width: 80%;
 }
 
 #container {
@@ -94,7 +109,12 @@
 
 #container h2 {
     color: #cc1906;
+    font-family: 'Dosis', sans-serif;
+
+    
 }
+
+
 
 /*Media Queries Responsive*/
 
