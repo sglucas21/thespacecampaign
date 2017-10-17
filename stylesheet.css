@@ -10,6 +10,7 @@
 	top: 0;
     width:100%;
 	margin-bottom: 40 px;
+    z-index: 9999999;
 }
 
 .top-nav a {
@@ -57,7 +58,7 @@
     padding-top: 25px;
     border-top: solid 1.5px;
 	position:center;
-	max-width: 80%;
+	max-width: 100%;
     
 	
 }
