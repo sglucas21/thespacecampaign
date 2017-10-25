@@ -34,11 +34,15 @@ body{
 	color:white;
 	background-color:#111111
 	
-
 }
+
+
+
 .top-nav a:hover{
 	color:#cc1906;
 }
+
+
 .top-nav a:active{
 	font-size:16px;
 	background-color:#111111;
@@ -48,10 +52,12 @@ body{
     display: none;
 }
 
+
+
+
 .banner{
     background-color: black;
     padding-top: 15px;
-    position: center;
     margin: auto;
     margin-top: 10px;
 }
@@ -62,11 +68,9 @@ body{
     margin-top: 100px;
     padding-top: 25px;
     border-top: solid 1.5px;
-	position:center;
 	max-width: 100%;
     
    }
-
 
 
 
@@ -75,7 +79,6 @@ body{
     margin-top: 100px;
     padding-top: 25px;
     border-top: solid 1.5px;
-	position:center;
 	max-width: 80%;
 }
 
@@ -84,13 +87,40 @@ body{
     margin-top: 100px;
     padding-top: 25px;
     border-top: solid 1.5px;
-	position:center;
     text-align: center;
 	max-width: 80%;
 }
 
 
+.pimg1, .pimg2, .pimg3{
+    
+    position: relative;
+    opacity: 0.85;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
+
+.pimg1 {
+    background-image: url('images/scroll-image2.jpg');
+    min-height: 500px; 
+}
+
+.pimg2 {
+    background-image: url('images/scroll-image1.jpg');
+    min-height: 500px; 
+}
+
+
+.pimg3 {
+    background-image: url('images/scroll-image3.jpg');
+    min-height: 500px; 
+}
+    
+        
+    
 
 
 /**  Will be in effect once contact form is enabled
