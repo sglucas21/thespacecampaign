@@ -1,4 +1,9 @@
-
+body{
+    
+    height: 100%;
+    margin: 0;
+    
+}
 
 
 
@@ -60,8 +65,10 @@
 	position:center;
 	max-width: 100%;
     
-	
-}
+   }
+
+
+
 
 #beat-store {
     margin:auto;
@@ -82,6 +89,12 @@
 	max-width: 80%;
 }
 
+
+
+
+
+/**  Will be in effect once contact form is enabled
+
 .red{
     color:red;
     }
@@ -92,7 +105,7 @@
 	margin: 10px 0px 60px;
 	border: 1px solid GREY;
 	}
-
+**/
 
 #social-media {
 	margin:auto;
@@ -162,7 +175,34 @@
 }
 
 
+//** Enlarge Pics when hovering**//
 
+@media screen and (max-width: 768px){
+    #campaign_pic{
+        width: 100%    
+        }
+
+    #campaign_pic:hover{
+        transform: scale(1.1)    
+        }
+
+    #crown_pic{
+        width: 100%    
+        }
+
+    #crown_pic:hover{
+        transform: scale(1.1)    
+        }
+
+    #civil_rights_pic{
+        width: 100%            
+        }
+
+    #civil_rights_pic:hover{
+        transform: scale(1.1)    
+        }
+
+}
 
 
 
