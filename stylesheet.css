@@ -6,7 +6,17 @@ body{
 }
 
 
+#container {
+	margin: auto;
+	position: center;
+	width:auto;
+}
 
+#container h2 {
+    color: #cc1906;
+    font-family: 'Dosis', sans-serif;
+    
+}
 
 .top-nav {
     background-color: #111111;
@@ -65,31 +75,47 @@ body{
 
 #music-release{
 	margin:auto;
-    margin-top: 100px;
-    padding-top: 25px;
-    border-top: solid 1.5px;
+    margin-top: 30px;
 	max-width: 100%;
-    
-   }
+}
 
 
 
 #beat-store {
     margin:auto;
-    margin-top: 100px;
-    padding-top: 25px;
-    border-top: solid 1.5px;
+    margin-top: 30px;
 	max-width: 80%;
 }
 
 #contact {
 	margin:auto;
-    margin-top: 100px;
-    padding-top: 25px;
-    border-top: solid 1.5px;
+    margin-top: 30px;
     text-align: center;
 	max-width: 80%;
 }
+
+
+#social-media {
+	margin:auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+	position:center;
+	max-width: 80%;
+}
+
+
+#footer {
+    background-color: #F0EDFF;
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    font-size: 14px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    margin-top: 25px;
+}
+
 
 
 .pimg1, .pimg2, .pimg3{
@@ -109,18 +135,66 @@ body{
 }
 
 .pimg2 {
-    background-image: url('images/scroll-image1.jpg');
+    background-image: url('images/scroll-image3.jpg');
     min-height: 500px; 
 }
 
 
 .pimg3 {
-    background-image: url('images/scroll-image3.jpg');
+    background-image: url('images/scroll-image1.jpg');
     min-height: 500px; 
 }
     
         
+.modalIMG {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+/** Background for Modal effect on images **/
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 50px;
+    left: 0;
+    top:0;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.9);
+
     
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    animation-name: zoom;
+    animation-duration: 0.75s;
+    max-width: 40%;
+}
+
+.close {
+    color: #fff;
+    opacity: 1.0;
+    font-size: 75px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
 
 
 /**  Will be in effect once contact form is enabled
@@ -137,42 +211,10 @@ body{
 	}
 **/
 
-#social-media {
-	margin:auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding-top: 25px;
-    padding-bottom: 50px;
-    border-top: solid 1.5px;
-	position:center;
-	max-width: 80%;
-}
-
-#footer {
-    background-color: #F0EDFF;
-    text-align: center;
-    font-family: 'Abel', sans-serif;
-    font-size: 14px;
-    padding-bottom: 100px;
-    padding-top: 100px;
-    margin-top: 25px;
-}
-
-#container {
-	margin: auto;
-	position: center;
-	width:auto;
-}
-
-#container h2 {
-    color: #cc1906;
-    font-family: 'Dosis', sans-serif;
-    
-}
 
 
+/**Media Queries Responsive**/
 
-/*Media Queries Responsive*/
 
 /*Hides links on small screens*/
 @media screen and (max-width:768px) {
@@ -183,10 +225,6 @@ body{
     }
     
 }
-
-
-
-
 
 /*Displays links vertically on small screen*/
 @media screen and (max-width: 768px) {
@@ -205,34 +243,6 @@ body{
 }
 
 
-//** Enlarge Pics when hovering**//
-
-@media screen and (max-width: 768px){
-    #campaign_pic{
-        width: 100%    
-        }
-
-    #campaign_pic:hover{
-        transform: scale(1.1)    
-        }
-
-    #crown_pic{
-        width: 100%    
-        }
-
-    #crown_pic:hover{
-        transform: scale(1.1)    
-        }
-
-    #civil_rights_pic{
-        width: 100%            
-        }
-
-    #civil_rights_pic:hover{
-        transform: scale(1.1)    
-        }
-
-}
 
 
 
