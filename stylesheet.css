@@ -177,12 +177,13 @@ body{
     max-width: 40%;
 }
 
-.close {
-    color: #fff;
+.close-button {
+    color: whitesmoke;
     opacity: 1.0;
-    font-size: 75px;
-    font-weight: bold;
+    font-size: 45px;
     cursor: pointer;
+    float: right;
+    padding-right: 10%;
 }
 
 

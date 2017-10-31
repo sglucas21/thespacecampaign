@@ -41,7 +41,7 @@ img3.onclick = function(){
 }
 
 
-var span = document.getElementsByClassName("close")[0];
+var span = document.getElementsByClassName("close-button")[0];
 span.onclick = function() { 
   modal.style.display = "none";
 }
