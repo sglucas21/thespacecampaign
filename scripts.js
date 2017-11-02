@@ -15,6 +15,56 @@ function myFunction() {
 }
     
 
+
+//mouse over effect to change image to greyscale
+
+function newPicture1() {
+    
+    document.getElementById("campaign_pic").src="images/The_Campaign_Artwork_Grey.jpg";
+}
+
+function oldPicture1() {
+    document.getElementById("campaign_pic").src="images/The_Campaign_Artwork.jpg";
+}
+
+function mousedown1() {
+    document.getElementById("campaign_pic").src="images/The_Campaign_Artwork.jpg";
+}
+
+//mouse over effect to change image to greyscale
+function newPicture2() {
+    
+    document.getElementById("crown_pic").src="images/jetson_crown_grey.jpg";
+}
+
+function oldPicture2() {
+    document.getElementById("crown_pic").src="images/jetson_crown.jpg";
+}
+
+function mousedown2() {
+    document.getElementById("crown_pic").src="images/jetson_crown.jpg";
+}
+
+//mouse over effect to change image to greyscale
+function newPicture3() {
+    
+    document.getElementById("civil_rights_pic").src="images/yons_civil_rights_grey.jpg";
+}
+
+function oldPicture3() {
+    document.getElementById("civil_rights_pic").src="images/yons_civil_rights.jpg";
+}
+
+function mousedown3() {
+    document.getElementById("civil_rights_pic").src="images/yons_civil_rights.jpg";
+}
+
+
+
+
+
+
+
 //modal effect for cover art images
 
 var modal = document.getElementById('myModal');
@@ -45,4 +95,5 @@ var span = document.getElementsByClassName("close-button")[0];
 span.onclick = function() { 
   modal.style.display = "none";
 }
+
 
