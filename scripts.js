@@ -12,8 +12,10 @@ function myFunction() {
     } else {
         x.className ="top-nav";
     }
-}
+};
+
     
+
 
 //modal effect for cover art images
 
@@ -21,6 +23,8 @@ var modal = document.getElementById('myModal');
 var img1 = document.getElementById('campaign_pic');
 var img2 = document.getElementById('crown_pic');
 var img3 = document.getElementById('civil_rights_pic');
+var img4 = document.getElementById('allday_pic');
+var img5 = document.getElementById('concert_pic');
 var modalImg = document.getElementById("img01");
 img1.onclick = function(){
     modal.style.display = "block";
@@ -40,8 +44,20 @@ img3.onclick = function(){
     captionText.innerHTML = this.alt;
 }
 
+img4.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
 
-var span = document.getElementsByClassName("close")[0];
+img5.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+
+var span = document.getElementsByClassName("close-button")[0];
 span.onclick = function() { 
   modal.style.display = "none";
 }

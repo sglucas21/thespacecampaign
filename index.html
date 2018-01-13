@@ -17,7 +17,7 @@
 	<!-- Navigation Bar -->
 	<div class= "top-nav" id="myTop-nav">
 		<a href="index.html">HOME</a>
-        <a href="#music-release">MUSIC</a>
+        <a href="#music-release" data-toggle="collapse" data-target=".navbar-collapse.in">MUSIC</a>
 		<a href="#beat-store">BEAT STORE</a>
 		<a href="#contact">CONTACT</a>
         <a href="#social-media">SOCIAL MEDIA</a>
@@ -33,7 +33,7 @@
 
      <!--Banner Logo-->
     <div class="banner">
-        <img class="img-fluid auto" src="images/SpaceCampaignLogo_black_2.jpg" alt="Responsive image" >
+        <img class="img-fluid auto" src="images/SpaceCampaignLogo_3.jpg" alt="Responsive image" >
      </div>
 
     
@@ -41,7 +41,40 @@
     <div class= "container" style="max-width: 80%" id="music-release">
         <h2 style="text-align: center">MUSIC</h2>
         <br>
+        
         <h5 style="text-align: center">Latest Releases</h5>
+        
+        <div class="row text-center" style="margin-top: 2em;">
+                <div style="margin-bottom: 2em" class="col-lg-6 push-lg-6">
+                    <h6>"All Day"</h6>
+                    <p>A. Jamison</p>
+                        <img src="images/allday.jpg" style="max-height: 450px" class="img-fluid auto rounded modalIMG" alt="Responsive image" id="allday_pic">    
+                        <br>
+                        <br>
+                        <iframe style="border: 0;width: 80%; height: 166px;" src="https://bandcamp.com/EmbeddedPlayer/album=1633387502/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://ajamisonmusic.bandcamp.com/album/all-day">All Day by A. Jamison</a></iframe>                    <br>
+                    <br>
+                    <a href="https://ajamisonmusic.bandcamp.com/album/all-day" target="_blank"> <button type="button" style="font-family: 'Abel', sans-serif;" class="btn btn-dark">&nbsp;&nbsp;STREAM &nbsp;</button></a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+                    <a href="https://ajamisonmusic.bandcamp.com/album/all-day" target="_blank"> <button type="button" style="font-family: 'Abel', sans-serif;" class="btn btn-dark">PURCHASE</button></a>
+                </div>
+            
+             <div style="margin-bottom: 2em" class="col-lg-6 push-lg-6">
+                    <h6>"The Campaign"</h6>
+                    <p>RMLLW2LLZ (Prod by Yons) </p>
+                        <img src="images/concert.jpg" style="max-height: 450px" class="img-fluid auto rounded modalIMG" alt="Responsive image" id="concert_pic">     
+                        <br>
+                        <br>
+                    <iframe width="100%" height="166px" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/373278638&amp;color=%23ff0000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
+                    <br>
+                    <br>
+                    <a href="https://soundcloud.com/rmllw2llz/sets/concerto-no9-movement-ii" target="_blank"> <button type="button" style="font-family: 'Abel', sans-serif;" class="btn btn-dark">&nbsp;&nbsp;STREAM &nbsp;</button></a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+                    <a href="https://rmllw2llz.bandcamp.com/album/concerto-no-9-movement-ii" target="_blank"> <button type="button" style="font-family: 'Abel', sans-serif;" class="btn btn-dark">PURCHASE</button></a>
+                </div>
+        </div>
+        
            <div class="row text-center" style="margin-top: 2em;">
                 <div style="margin-bottom: 2em" class="col-lg-4 push-lg-4">
                     <h6>"The Campaign"</h6>
@@ -96,7 +129,7 @@
     
                     <!-- Modal for cover art images-->
                             <div id="myModal" class="modal">
-                                <span class="close">&times;</span>
+                                <span class="close-button">&times;</span>
                                 <img class="modal-content" id="img01">
                             </div>
         
@@ -191,7 +224,7 @@
     
     <!--Footer-->
     <div id="footer">
-        <footer>&copy; 2017 The Space Campaign </footer>
+        <footer>&copy; 2018 The Space Campaign </footer>
     </div>
          
 </div>
@@ -202,6 +235,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/2.0.0/jquery.localScroll.min.js"></script>
     <script src="scripts.js"></script>
+  
+           
         
     
 </body>
