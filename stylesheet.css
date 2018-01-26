@@ -79,12 +79,30 @@ body{
 	max-width: 100%;
 }
 
+#music-release a:hover {
+    text-decoration-style: dotted;
+    color: #cc1906;
+    
+}
 
 
-#beat-store {
+
+#press {
     margin:auto;
     margin-top: 30px;
 	max-width: 80%;
+}
+
+#press hr {
+  height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+    
+}
+
+#press a:hover {
+    text-decoration-style: dotted;
+   color: #cc1906;
 }
 
 #contact {
