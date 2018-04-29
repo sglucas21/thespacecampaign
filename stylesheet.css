@@ -13,18 +13,35 @@ body{
     background-color: #202020;
     padding-bottom: 50px;
     padding-top: 20px;
+    margin-bottom: 8px;
     width: 100%;
-}
-
-#intro-bottom {
-    background-color: #202020;
-    padding-bottom: 40px;
-    padding-top: 50px;
-    width: 100%;
+    
 }
 
 
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    padding-left:;
+    position:relative;
+    
+}
+.video-responsive iframe{
+    left:0;
+    top:0;   
+    position:absolute;
+}
 
+.video-responsive2{
+    overflow:hidden;    
+    padding-left:;
+    
+    
+}
+.video-responsive2 iframe {
+    left:0;
+    top:0;   
+}
 #container {
 	margin: auto;
 	position: center;
